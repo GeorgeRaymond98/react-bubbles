@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Pack } from "@potion/layout";
 import { Svg, Circle } from "@potion/element";
+// import { Svg, Arc } from '@potion/element';
+// import { Svg, Area } from '@potion/element';
 
 const Bubbles = ({ colors }) => {
   const [bubbleData, setBubbleData] = useState([]);
@@ -38,6 +40,14 @@ const Bubbles = ({ colors }) => {
                       r={r}
                       fill={colors[i].code.hex}
                     />
+                  //   <Arc
+                  //   key={key}
+                  //   innerRadius={150}
+                  //   outerRadius={200}
+                  //   startAngle={0}
+                  //   endAngle={Math.PI * 3 / 2}
+                  //   fill={colors[i].code.hex}
+                  // />
                   );
                 }
                 return null;
