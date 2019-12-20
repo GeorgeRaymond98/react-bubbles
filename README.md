@@ -32,9 +32,11 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
       a Token is used for service authentication.
 - [ ] What steps can you take in your web apps to keep your data secure?
     Keep the Token in a safe place 
- 
 - [ ] Describe how web servers work.
+A Web server is a program that uses HTTP to send files form Web pages to users, in response to their requests, which are forwarded by their computers' HTTP clients
+
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+  Put 
 
 
 ## Project Set Up
